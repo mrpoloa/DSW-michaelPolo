@@ -1,0 +1,20 @@
+header{
+background-color: rgb(141, 154, 226);
+padding: 10px;
+}
+nav{
+    background-color: rgba(141, 154, 226, 0.438);
+    padding: 10px;
+}
+section{
+    background-color: rgb(231, 218, 95);
+    padding: 10px;
+}
+aside{
+    background-color: rgb(175, 240, 236);
+    padding: 10px;
+}
+footer{
+    background-color: rgb(240, 240, 247);
+    padding: 10px;
+}
