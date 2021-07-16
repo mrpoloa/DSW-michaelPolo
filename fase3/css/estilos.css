@@ -1,16 +1,9 @@
-header{
-background-color: rgb(141, 154, 226);
-padding: 10px;
-}
-nav{
-    background-color: rgba(141, 154, 226, 0.438);
-    padding: 10px;
-}   
-    .nav > li {
-        float:left;
+  
+    nav > li {
+        float: none ;
     }
 
-    .nav li a {
+    nav li a {
         background-color:#000;
         color:#fff;
         text-decoration:none;
@@ -18,30 +11,32 @@ nav{
         display:block;
     }
 
-    .nav li a:hover {
+    nav li a:hover {
         background-color:#434343;
     }
 
-    .nav li ul {
+    nav li ul {
         display:none;
         position:absolute;
         min-width:140px;
     }
 
-    .nav li:hover > ul {
+    nav li:hover > ul {
         display:block;
     }
 
-    .nav li ul li {
+    nav li ul li {
         position:relative;
     }
 
-    .nav li ul li ul {
+    nav li ul li ul {
         right:-140px;
         top:0px;
     }
-
-
+    nav ul {
+        display: inline-block;
+        
+    }
 
 
 
@@ -56,4 +51,68 @@ aside{
 footer{
     background-color: rgb(240, 240, 247);
     padding: 10px;
+}
+
+header{
+    overflow: hidden;
+    background: #444;
+    padding: 1em 0 0 ;
+  }
+
+  header .center-contents{
+    max-width: 650px;
+    margin:auto;
+    overflow: hidden;
+  }
+
+  logo{
+    max-width: 60px;
+    display: block;
+    float: left;
+    margin: 0 0 1em 1em;
+  }
+
+  logo img{
+    display: block;
+  }
+
+  nav{
+    color: #fff;
+    float:right;
+  }
+
+  nav ul, .page-nav li{
+    list-style:none;
+    margin:0;
+    padding: 0;
+    float: left;
+  }
+
+  nav a{
+    color: #fff;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3 {
+    display: block;
+    
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
